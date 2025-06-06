@@ -59,7 +59,7 @@ ToggleButton.MouseButton1Click:Connect(function()
             while ESpamming do
                 game:GetService("VirtualInputManager"):SendKeyEvent(true, "E", false, game)
                 game:GetService("VirtualInputManager"):SendKeyEvent(false, "E", false, game)
-                task.wait(0.05)
+                task.wait(0.1)
             end
         end)
     end
